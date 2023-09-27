@@ -1,0 +1,24 @@
+{
+  "name": "libblio",
+  "version": "1.0.0",
+  "description": "school library management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Libblio"
+  },
+  "author": "Vanessa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.3",
+    "nodemon": "^2.0.21"
+  }
+}
